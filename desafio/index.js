@@ -81,7 +81,14 @@ const reverterString = (string) => {
 /* ------------------- Chamando as funções para serem executadas ---------------------------- */
 
 
-//console.log(calculoFibonnaci(21));
-//console.log(calculaFaturamentoDiario(dados));
-//console.log(calculaPercentual(informacoesEstados));
-//console.log(reverterString('Eu quero ser contratado'));
+console.log(calculoFibonnaci(21));
+console.log('------------------------------------------------------------------------------------------------------------------');
+
+console.log(calculaFaturamentoDiario(dados));
+console.log('------------------------------------------------------------------------------------------------------------------');
+
+console.log(calculaPercentual(informacoesEstados));
+console.log('------------------------------------------------------------------------------------------------------------------');
+
+console.log(reverterString('Eu quero ser contratado'));
+console.log('------------------------------------------------------------------------------------------------------------------');
