@@ -17,7 +17,7 @@ const calculoFibonnaci = (numero) => {
         return `O número ${numero} não pertence a sequência Fibonnaci ${metodoFibonnaci}`;
     }
 }
-//console.log(calculoFibonnaci(21));
+
 
 const calculaFaturamentoDiario = (faturamento) => {
 
@@ -47,7 +47,7 @@ const calculaFaturamentoDiario = (faturamento) => {
     return `O Menor Valor foi de: ${formataValor(menorValor.valor)}, e o Maior Valor foi de: ${formataValor(maiorValor.valor)} e o Número de Dias em que o Faturamento foi maior que a média mensal foram: ${faturamentoSuperior.length}`;
 };
 
-//console.log(calculaFaturamentoDiario(dados));
+
 
 const calculaPercentual = (faturamentoMensalEstados) => {
     const totalMensal = faturamentoMensalEstados.reduce((acumulador, valor) => {
@@ -60,7 +60,7 @@ const calculaPercentual = (faturamentoMensalEstados) => {
     return totalPercentual;
 }
 
-//console.log(calculaPercentual(informacoesEstados));
+
 
 const reverterString = (string) => {
     let stringInvertida = [];
@@ -73,7 +73,15 @@ const reverterString = (string) => {
         }
     }
     const stringInvertidaFormatada = stringInvertida.join('').toString();
-    return stringInvertidaFormatada;
+    return `A string informada "${string}" foi invertida para esse resultado "${stringInvertidaFormatada}"`;
 };
 
+
+
+/* ------------------- Chamando as funções para serem executadas ---------------------------- */
+
+
+//console.log(calculoFibonnaci(21));
+//console.log(calculaFaturamentoDiario(dados));
+//console.log(calculaPercentual(informacoesEstados));
 //console.log(reverterString('Eu quero ser contratado'));
