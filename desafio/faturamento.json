@@ -1,0 +1,23 @@
+[
+    {
+        "estado": "SP",
+        "faturamentoMensal": 67836.43
+    },
+    {
+        "estado": "RJ",
+        "faturamentoMensal": 36678.66
+    },
+    {
+        "estado": "MG",
+        "faturamentoMensal": 29229.88
+    },
+    {
+        "estado": "ES",
+        "faturamentoMensal": 27165.48
+    },
+    {
+        "estado": "Outros",
+        "faturamentoMensal": 19849.53
+    }
+
+]
